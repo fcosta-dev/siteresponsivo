@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fernando Costa"/>
+    <meta name="keywords" content="tecnologia, front-end, site"/>
+    <link rel="stylesheet" type="text/css" href="./css/global.css"/>
+    <link rel="shortcut icon" href="assets/images/logo.png">
+    <title>COSMÉTICOS DESENVOLVE - ACQUA BOTANICS</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="propaganda-header">
+        <h6>PROGRAMA DESENVOLVE - GRUPO BOTICÁRIO & ALURA</h6>
+      </div>
+      <nav class="navegacao">
+        <div class="header-logo">
+          <p>
+            <a href="index.html">
+              <img src="./assets/images/logo.png" style="width: 50px; height: auto;">
+              ACQUA BOTANICS
+            </a>
+          </p>
+        </div>
+        <div class="mobile-menu">
+          <input type="checkbox" name="menu-toggle" id="menu-toggle">
+          <label for="menu-toggle" class="menu-btn">
+            <span />
+          </label>
+          <ul class="menu">
+            <li><a href="index.html" onclick="closeNav()"> Home </a></li>
+            <li><a href="produtos.html" onclick="closeNav()"> Produtos </a></li>
+            <li><a href="contato.html" onclick="closeNav()"> Fale Conosco </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="principal">
+      <div id="imagem-principal"><img src="./assets/images/contato.PNG" alt="mulheres cuidando da pele"></div>
+      <form class="formulario">
+        <legend>
+          <h1>Mande a sua mensagem</h1>
+        </legend>
+        <input type="text" name="tNome" id="cNome" placeholder="Nome completo" maxlenght="50" required>
+        <label for="cNome"></label>
+        <input type="email" name="tMail" id="cMail" placeholder="E-mail" maxlenght="30" required>
+        <label for="cMail"></label>
+        <textarea name="tMsg" id="cMsg" cols="45" rows="5" maxlenght="250"
+          placeholder="Digite aqui sua mensagem"></textarea>
+        <label for="cMsg"></label>
+        <input type="submit" class="submit-btn" value="Enviar"></input>
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <section class="sobre-empresa">
+        <h5>Cosméticos Desenvolve Acqua Botanics Ltda </h5>
+        <p>
+          Nossa empresa combina a ciência dos cosméticos com os benefícios da natureza para criar produtos de beleza inovadores. Explore nossa linha de produtos que nutrem, protegem e rejuvenescem, oferecendo uma experiência única em cuidados com a pele.
+        </p>
+      </section>
+      <div>
+        <h5>Fale conosco</h5>
+        <p> um_email_aleatorio@gmail.com ou pelo telefone: (99) 92345-9999</p>
+      </div>
+      <section class="sobre-mim">
+        <p>
+          <h5>&copy; Copyright 2024 </h5>
+          <p>Desenvolvido por Fernando Costa - Treinamento Alura</p>
+        </p>
+      </section>
+    </footer>
+
+    <script src="./javascript/mobile-nav.js"> </script>
+  </body>
+</html>
