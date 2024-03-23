@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Fernando Costa"/>
+      <meta name="keywords" content="tecnologia, front-end, site"/>
+      <link rel="stylesheet" type="text/css" href="./css/global.css"/>
+      <link rel="shortcut icon" href="assets/images/logo.png">
+      <title>COSMÉTICOS DESENVOLVE - ACQUA BOTANICS</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="propaganda-header">
+        <h6>PROGRAMA DESENVOLVE - GRUPO BOTICÁRIO & ALURA</h6>
+      </div>
+      <nav class="navegacao">
+        <div class="header-logo">
+          <p>
+            <a href="index.html">
+              <img src="./assets/images/logo.png" style="width: 50px; height: auto;">
+              ACQUA BOTANICS
+            </a>
+          </p>
+        </div>
+        <div class="mobile-menu">
+          <input type="checkbox" name="menu-toggle" id="menu-toggle">
+          <label for="menu-toggle" class="menu-btn">
+            <span />
+          </label>
+          <ul class="menu">
+              <li><a href="index.html" onclick="closeNav()"> Home </a></li>
+              <li><a href="produtos.html" onclick="closeNav()"> Produtos </a></li>
+              <li><a href="contato.html" onclick="closeNav()"> Fale Conosco </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="principal">
+      <section class="sessao1">
+        <section class="slider">
+          <div class="slides">
+            <input name='radio-btn' type="radio" id="radio1">
+            <input name='radio-btn' type="radio" id="radio2">
+            <input name='radio-btn' type="radio" id="radio3">
+
+            <div class="slide first">
+              <img src="imagens/index/banner1.jpg" alt="banner 1- Destaque">
+            </div>
+            <div class="slide">
+              <img src="imagens/index/banner2.jpg" alt="banner 2 - Promoção em destaque">
+            </div>
+            <div class="slide">
+              <img src="imagens/index/banner3.jpg" alt="banner 3 - Informações">
+            </div>
+
+            <div class="nav-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+            </div>
+          </div>
+
+          <div class="manual-nav">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
+        </section>
+      </section>
+      <section class="sessao2">
+        <div class="sessao2-img">
+          <img src="assets/images/mulher.jpg" alt="mulher com mascara facial">
+        </div>
+        <div class="sessao2-texto">
+          <h1>Beleza em Destaque</h1>
+          <p>
+            Descubra os segredos para uma pele radiante e saudável com nossos produtos de cuidados com a pele, projetados para realçar sua beleza natural.</p>
+          <div class="mini-img">
+            <p><img src="assets/images/mini-img1.jpg" alt="mulher recebendo massagem">Frontal</p>
+            <p><img src="assets/images/mini-img2.jpg" alt="mulher recebendo massagem">Periocular</p> <!--Pesquisa realizada na internet-->
+            <p><img src="assets/images/mini-img3.jpg"  alt="mulher recebendo massagem">Malaris</p>
+          </div>
+        </div>
+      </section>
+      <section class="sessao4">
+        <h4>DESTAQUE</h4>
+        <p>Nossas lideranças para o cuidado</p><br>
+        <div class="sessao4-imgs">
+          <div id="corpo"><img src="assets/images/corpo.jpg" alt="produto para o corpo"><p>Corpo</p></div>
+          <div id="rosto"><img src="assets/images/rosto.jpg" alt="produto para o rosto"><p>Rosto</p></div>
+          <div id="cabelo"><img src="assets/images/cabelo.jpg" alt="produto para o cabelo"><p>Cabelo</p></div>
+        </div>
+        <div class="btn-index-produtos">
+          <a href="produtos.html">Nossos Produtos
+            <div class="seta"><img src="imagens/index/seta-direita.png">
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <section class="sobre-empresa">
+        <h5>Cosméticos Desenvolve Acqua Botanics Ltda </h5>
+        <p>
+          Nossa empresa combina a ciência dos cosméticos com os benefícios da natureza para criar produtos de beleza inovadores. Explore nossa linha de produtos que nutrem, protegem e rejuvenescem, oferecendo uma experiência única em cuidados com a pele.
+        </p>
+      </section>
+      <div>
+        <h5>Fale conosco</h5>
+        <p> um_email_aleatorio@gmail.com ou pelo telefone: (99) 92345-9999</p>
+      </div>
+      <section class="sobre-mim">
+        <p>
+          <h5>&copy; Copyright 2024 </h5>
+          <p>Desenvolvido por Fernando Costa - Treinamento Alura</p>
+        </p>
+      </section>
+    </footer>
+
+    <script src="./javascript/mobile-nav.js"></script>
+  </body>
+</html>
