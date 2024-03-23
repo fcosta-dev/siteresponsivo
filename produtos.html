@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fernando Costa"/>
+    <meta name="keywords" content="tecnologia, front-end, site"/>
+    <link rel="stylesheet" type="text/css" href="./css/global.css"/>
+    <link rel="shortcut icon" href="/assets/images/logo.png">
+    <title>COSMÉTICOS DESENVOLVE - ACQUA BOTANICS</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="propaganda-header">
+        <h6>PROGRAMA DESENVOLVE - GRUPO BOTICÁRIO & ALURA</h6>
+      </div>
+      <nav class="navegacao">
+        <div class="header-logo">
+          <p>
+            <a href="index.html">
+              <img src="./assets/images/logo.png" style="width: 50px; height: auto;">
+              ACQUA BOTANICS
+            </a>
+          </p>
+        </div>
+        <div class="mobile-menu">
+          <input type="checkbox" name="menu-toggle" id="menu-toggle">
+          <label for="menu-toggle" class="menu-btn">
+            <span></span>
+          </label>
+          <ul class="menu">
+            <li><a href="index.html" onclick="closeNav()"> Home </a></li>
+            <li><a href="produtos.html" onclick="closeNav()"> Produtos </a></li>
+            <li><a href="contato.html" onclick="closeNav()"> Fale Conosco </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="principal">
+      <section class="produtos-texto">
+        <h1>Descubra a Beleza dos Nossos Produtos</h1>
+        <p>Explore nossa ampla variedade de produtos de alta qualidade, desenvolvidos para cuidar da sua pele e realçar sua beleza natural.</p>
+      </section>
+      <section class="produtos">
+        <div>
+          <img id="icone" src="./assets/images/sabonete.jpg" alt="sabonete">
+          <div><a href="" id="botao-sac">Adicionar à sacola</a></div>
+          <h2>R$ 26,99</h2>
+          <h3>Sabonete Revitalizante</h3>
+        </div>
+        <div>
+          <img id="icone2" src="./assets/images/oleo_essencial.jpg" alt="oléo essencial">
+          <h2>R$ 49,90</h2>
+          <h3>Óleo Essencial de Lavanda</h3>
+        </div>
+        <div>
+          <img id="icone3" src="./assets/images/oleo_de_banho.jpg" alt="óleo de banho">
+          <h2>R$ 69,90</h2>
+          <h3>Óleo de Banho Hidratante</h3>
+        </div>
+        <div>
+          <img id="icone4" src="./assets/images/oleos.jpg" alt="óleo essencial">
+          <h2>R$ 119,90</h2>
+          <h3>Óleo Essencial de Rosa Mosqueta</h3>
+        </div>
+        <div>
+          <img id="icone5" src="./assets/images/sabonete2.jpg" alt="sabonete">
+          <h2>R$ 39,90</h2>
+          <h3>Sabonete Esfoliante de Coco</h3>
+        </div>
+        <div>
+          <img id="icone6" src="./assets/images/oleo.jpg" alt="óleo">
+          <h2>R$ 49,90</h2>
+          <h3>Óleo Corporal Hidratante</h3>
+        </div>
+        <div>
+          <img id="icone7" src="./assets/images/perfume.jpg" alt="perfume">
+          <h2>R$ 199,90</h2>
+          <h3>Perfume Floral Elegante</h3>
+        </div>
+        <div>
+          <img id="icone8" src="./assets/images/creme.jpg" alt="creme de pele">
+          <h2>R$ 25,90</h2>
+          <h3>Creme Hidratante para Pele Seca</h3>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <section class="sobre-empresa">
+        <h5>Cosméticos Desenvolve Acqua Botanics Ltda </h5>
+        <p>
+          Nossa empresa combina a ciência dos cosméticos com os benefícios da natureza para criar produtos de beleza inovadores. Explore nossa linha de produtos que nutrem, protegem e rejuvenescem, oferecendo uma experiência única em cuidados com a pele.
+        </p>
+      </section>
+      <div>
+        <h5>Fale conosco</h5>
+        <p> um_email_aleatorio@gmail.com ou pelo telefone: (99) 92345-9999</p>
+      </div>
+      <section class="sobre-mim">
+        <p>
+          <h5>&copy; Copyright 2024 </h5>
+          <p>Desenvolvido por Fernando Costa - Treinamento Alura</p>
+        </p>
+      </section>
+    </footer>
+
+    <script src="./javascript/mobile-nav.js"></script>
+  </body>
+</html>
